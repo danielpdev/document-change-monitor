@@ -1,8 +1,8 @@
 {
   "mode": "fixture",
   "python": "3.12.13",
-  "recorded_at": "2026-10-31T13:50:42.787053+00:00",
-  "elapsed_seconds": 0.0125,
+  "recorded_at": "2026-10-31T13:57:11.059155+00:00",
+  "elapsed_seconds": 0.0127,
   "result": {
     "passed": true,
     "scenario": {
