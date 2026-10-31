@@ -6,6 +6,12 @@ Versioned document diffs and replacement-safe search indexing.
 
 **Role focus:** RAG Operations / Backend. **Status:** working local portfolio implementation, with synthetic data.
 
+## Demo
+
+![How Document Change Monitor works](docs/demo.gif)
+
+Edited replay of captured CLI outputs in deterministic fixture mode. This is not live model inference. [Full recording](docs/demo.mp4). Rebuild with `./scripts/render_gif.sh` (FFmpeg required).
+
 ## The engineering decision
 
 A document update stores a new revision and replaces the current searchable text in one transaction. Search reads only active current versions; historical text stays in a separate revision table.
