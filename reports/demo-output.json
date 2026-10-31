@@ -1,0 +1,35 @@
+{
+  "mode": "fixture",
+  "python": "3.12.13",
+  "recorded_at": "2026-10-31T13:52:22.427313+00:00",
+  "elapsed_seconds": 0.0133,
+  "result": {
+    "diff": {
+      "changed": true,
+      "version": 2,
+      "diff": "--- policy:v1\n+++ policy:v2\n@@ -1 +1 @@\n-Refund window: thirty days.\n+Refund window: seven days."
+    },
+    "current": [
+      {
+        "id": "policy",
+        "version": 2,
+        "text": "Refund window: seven days.",
+        "score": 1
+      }
+    ],
+    "old_term_results": [],
+    "after_retirement": [],
+    "history": [
+      {
+        "id": "policy:1",
+        "text": "Refund window: thirty days.",
+        "diff": "--- policy:v0\n+++ policy:v1\n@@ -0,0 +1 @@\n+Refund window: thirty days."
+      },
+      {
+        "id": "policy:2",
+        "text": "Refund window: seven days.",
+        "diff": "--- policy:v1\n+++ policy:v2\n@@ -1 +1 @@\n-Refund window: thirty days.\n+Refund window: seven days."
+      }
+    ]
+  }
+}
